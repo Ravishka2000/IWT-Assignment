@@ -1,0 +1,154 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 1.125rem;
+    color: black;
+    background-image: linear-gradient(to right,rgb(43, 245, 43),rgb(245, 92, 92),rgb(86, 86, 253),rgb(253, 253, 107));
+}
+.main{
+    width: 1000px;
+    height: 600px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0  10px black;
+    
+}
+.image{
+    width: 450px;
+    height: 100%;
+ 
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    text-align: center;
+    width: 550px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.heading h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+input{
+    width: 250px;
+    line-height: 30px;
+    margin: 10px 0;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.308);
+    color: rgba(0, 0, 0, 0.582);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 50px;
+    padding-left: 1em;
+    
+
+
+}
+label{
+    text-align: left;
+    width: 100px;
+    
+}
+.input{
+    width: 550px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-transform: capitalize;
+
+}
+.submit-btn{
+    text-align: center;
+    width: 200px;
+    line-height: 20px;
+    margin-top: 40px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    padding: 0.5em 1em;
+    border-radius: 25px;
+    background-color: transparent;
+    opacity: 0.5;
+  
+}
+
+.submit-btn:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+.login{
+    color: rgb(75, 75, 250);
+}
+
+.login:hover{
+    cursor: pointer;
+}
+
+
+@media (max-width:680px){
+    .main{
+        width: 225px;
+        margin: 0 auto;
+        height: 1000px;
+        flex-direction: column;
+    }
+    .image{
+        width: 225px;
+        height: 300px;
+    }
+    .image img{
+        width: 100%;
+        height: 100%;
+    }
+    .container{
+        width: 225px;
+        text-align: center;
+        align-items: baseline;
+        
+    }
+    .input{
+        width: 100%;
+        flex-direction: column;
+    }
+    label{
+        width: 100%;
+        margin-left: 0;
+        text-align: left;
+    }
+    input{
+        width: 100%;
+    }
+}
+
+.message{
+    margin: 0 auto;
+    background-color: rgba(145, 229, 145, 0.753);
+    color: green;
+    width: 500px;
+    line-height: 30px;
+}
+
+.error{
+    margin: 0 auto;
+    background-color: rgba(255, 0, 0, 0.575);
+    color: red;
+    width: 500px;
+    line-height: 30px;
+
+}

@@ -1,0 +1,198 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+body{
+    background-image: url('C:/xampp/htdocs/feedback/src/images/m3.png');
+    background-color: rgba(255, 99, 71, 0.5);
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 40px;
+
+}
+.feedback{
+    width: 800px;
+    background-color:rgb(0,0,0,0.6);
+    margin: auto;
+    color: #faf5f5;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+
+}
+.main{
+    background-color: rgb(0,0,0,0.5);
+    width: 800px;
+    margin:auto;
+}
+form{
+    padding: 10px;
+}
+
+#name{
+    width: 100%;
+    height: 100px;
+}
+
+.name{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    color:white;
+    font-size: 18px;
+    font-weight: 700;   
+}
+
+.firstname{
+    position:relative;
+    left:200px;
+    top: -37px;
+    line-height: 35px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.lastname{
+    position:relative;
+    left:200px;
+    top: -37px;
+    line-height: 35px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color:#555;
+}
+
+.firstlabel{
+    position: relative;
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 40px;
+    top: -1px;
+}
+
+.lastlabel{
+    position: relative;
+    color: #E5E5E5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 40px;
+    top: -1px;
+}
+
+
+.email {
+    position:relative;
+    left:200px;
+    top: -37px;
+    line-height: 35px;
+    width: 200px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color:#555;
+
+}
+
+.age {
+    position:relative;
+    left:200px;
+    top: -37px;
+    line-height: 35px;
+    width: 100px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color:#555;
+
+}
+
+#comments {
+    outline: none;
+    border: none;
+    margin-left: 25px;
+    padding: 10px 0px 0px 15px;
+    font-size: 16px;
+    color: #000;
+    border-radius: 5px;
+    width: 700px;
+}
+
+.option {
+    position: relative;
+    left:200px;
+    top: -30px;
+    line-height: 40px;
+    width: 432;
+    height: 30px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+    overflow: hidden;
+}
+
+#Experience {
+    margin-left: 25px;
+    color: #E5E5E5;
+    font-size: 18px;
+}
+
+.radio {
+    display:inline-block;
+    padding-right: 60px;
+    font-size: 15px;
+    margin-left: 25px;
+    color: white;
+}
+
+.radio input{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+}
+
+button{
+    background-color: #3BAF9F;
+    display: block;
+    margin:20px 0px 0px 20px;
+    text-align: center;
+    border-radius: center;
+    border-radius: 12px;
+    border: 2px solid #366473;
+    padding: 10px 100px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25px;
+
+}
+
+button:hover {
+    background-color: #0f915f;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #e07618 }
+  
+  th {
+    background-color: #b3aeaa;
+    color: black;
+  }

@@ -1,0 +1,292 @@
+/* Footer CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to bottom,rgb(255, 255, 255),rgb(83, 82, 82));
+    
+}
+
+.footer {
+    background: radial-gradient(rgb(223, 223, 223),rgb(190, 188, 188));
+    padding: 70px 0;
+    box-shadow: 0 0 3px black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #131212;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #160202;
+    text-decoration: none;
+    font-weight: 300;
+    color: #313030;
+    display: block;
+}
+
+.footer-col ul li a:hover {
+    color: #1d1b1b;
+    padding-left: 8px;
+}
+
+.footer_social_media {
+    margin:0;
+    padding:0;
+}
+
+.footer_social_media li {
+    list-style: none;
+    display:inline-block;   
+}
+
+.footer_social_media li a {
+    font-size: 18px;
+    color:rgba(0,0,0,4);
+    margin-right: 20px;
+} 
+
+footer.art {
+    background-color: var--bg;
+    padding: 16px;
+    padding-top: 48px;
+    clip-path:polygon(0% 5%, 15% 0%, 100% 10%,100% 100%, 0% 100);
+}
+
+footer input {
+    border-style: 24px;
+    line-height: 24px;
+    padding: 12px 16px;
+    font-size: 1rem;
+    width: 100%;
+    margin-block: 8px;
+    border-radius: 8px;
+    border-width: 2px;
+}
+
+footer input[type= 'email'] {
+    background-color: transparent;
+    border-color: black;
+    color: rgb(15, 15, 15);
+}
+
+footer input[type='email']:hover,
+footer input[type='email']:focus {
+    border-color: var(--hover);
+    color: rgb(19, 18, 18);
+}
+
+footer input[type= 'submit'] {
+    background-color: rgb(167, 22, 22);
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+footer input[type= 'submit']:hover {
+    opacity: 1;
+}
+
+footer.notice {
+    text-align: center;
+    padding: 24px;
+    color: rgb(58, 55, 55);
+    opacity: 0.1;
+}
+
+footer.notice strong {
+    text-transform: uppercase;
+}
+
+#sm {
+    padding: 10px;
+}
+
+/* Header CSS */
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px ;
+}
+
+nav{
+    flex: 1;
+    text-align: center;
+}
+
+.uol {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+    font-family:rockwell;
+    font-size: 18px;
+    font-weight: 90;
+}
+
+li a:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.container{
+    max-width: 1500px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+.header{
+    background: radial-gradient(rgb(223, 223, 223),rgb(190, 188, 188));
+    box-shadow: 0 0 3px #000;
+    position:sticky;
+}
+
+.logo{
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.action .menu {
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    padding: 10px 20px;
+    background: rgb(255, 255, 255);
+    width: 200px;
+    box-sizing: 0 5px 25px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    transition: 0.5s;
+    visibility: hidden;
+}
+
+.action .menu.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.action .menu::before {
+    content: "";
+    position: absolute;
+    top:-5px;
+    right: 28px;
+    width: 20px;
+    height: 20px;
+    background: white;
+    transform: rotate(45deg);
+}
+
+.action .menu h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0;
+    font-weight: 500;
+    color: rgb(0, 109, 109);
+}
+
+.action .menu h3 span {
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+}
+
+.action .menu ul li {
+    list-style: none;
+    padding: 10px 0;
+    border-top: 1px solid rgba(0,0,0,0.05);
+    display: flex;
+    align-items: center;
+}
+
+.action .menu ul li img {
+    max-width: 20px;
+    margin-right: 10px;
+}
+
+.action .menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+.action .menu ul li:hover a {
+    color:pink;
+}
+
+.use, .crt {
+    cursor: pointer;
+    opacity: 0.5;
+    padding:15px;
+}
+
+.use:hover{
+    opacity: 2;
+}
+
+.crt:hover{
+    opacity: 1;
+}
+
+#men{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}

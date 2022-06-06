@@ -1,0 +1,75 @@
+<!--<?php 
+    include('server.php');
+?>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/register.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+
+    <div class="main">
+        <div class="image">
+            <img src="https://media.vogue.co.uk/photos/5e9a26b99ede3800088960d0/3:4/w_2250,h_3000,c_limit/Pop%20Colour%20Group_042SRWIDE.jpg" alt="">
+        </div>
+        <div class="container">
+
+            <div class="heading">
+                <h2>Create Account</h2>
+            </div>
+
+            <!--to display errors and messages-->
+
+            <!--<span class="message"><?php echo $message ;
+            ?></span>
+            <span class="error"><?php echo $error ;
+            ?></span>-->
+            
+
+            <form action="register.php" method="post">
+
+            <div class="input">
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname" >
+            </div>
+
+            <div class="input">
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" required>
+            </div>
+
+            <div class="input">
+                <label for="email">Email</label>
+                <input type="email" name='email' required>
+            </div>
+
+            <div class="input">
+                <label for="phone">Phone number</label>
+                <input type="text" name='phone' required>
+            </div>
+
+            <div class="input">
+                <label for="password">Password</label>
+                <input type="password" name="password_1" required>
+            </div>
+
+            <div class="input">
+                <label for="Confirm password">Confirm Password</label>
+                <input type="password" name="password_2" required>
+            </div>
+
+            <button type="submit" class="submit-btn" name='submit'> Sign Up </button>
+
+            </form>
+            <p>Already have an account? <a href="" class="login">Log in</a></p>
+
+            
+
+       </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cultrade</title>
+    <link rel="stylesheet" href="styles/Rstyles.css">
+    
+</head>
+
+<body>
+
+    <!--Header-->
+
+    <div class="header">
+        <div class="container">
+            <div class = "navbar">
+
+                <div class="logo">
+                    <img src ="images/logo.png" width="200px" height="105px">
+                </div>
+
+                <nav>
+                    <ul class = "uol">
+                        <li><a href="home.html" id = "men">Home</a></li>
+                        <li><a href="products.html" id = "men">Products </a></li>  
+                        <li><a href="newarrivals.html" id = "men">New Arrivals</a></li>
+                        <li><a href="contactus.php" id = "men">Contact Us</a></li>
+                        <li><a href="aboutus.html" id = "men">About Us</a></li>
+                    </ul>  
+                </nav>  
+
+                <div class="crt">
+                    <a href="#"><img src="images/cart.png" id="crt" width="25px" height="25px"></a>
+                </div> 
+
+                <div class="use">
+                    <div class="action">
+                        <div class="profile" onclick="menu()";>
+                            <a href="#"></a><img src="images/user.png" id = "use" width="25px" height="25px"></a>
+                        </div>
+                        <div class="menu">
+                            <h3>Richard Stark<br></h3>
+                            <ul>
+                                <li><img src = "images/profile.png"><a href="#">Log In</a></li>
+                                <li><img src = "images/add.png"><a href="register.html">Register</a></li>
+                                <li><img src = "images/question.png"><a href="#">Help</a></li>
+                                <li><img src = "images/settings.png"><a href="#">Setting</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    function menu()
+                    {
+                        const toggle = document.querySelector('.menu');
+                        toggle.classList.toggle('active');
+                    }
+                </script>
+            </div>  
+        </div>
+    </div>
+
+    <!--body-->
+
+    <div class = "brow">
+        <div class="col-2">
+            <h1>Styles to Love Now <br>& Layer Later...</h1>
+            <a href="products.html" class="btn">Shop Now &#8594;</a>
+        </div>
+        <div class="col-2">
+            <img src="images/row1.png" width="709px" height="620px">
+        </div>
+        <h1 id = "trend">Trending</h1>
+    </div>
+
+    <!--Items-->
+
+    <div class="categories">
+        <div class="brow">
+            <div class="col-3">
+                <a href=""><img src="images/new3.jpg" width="400px" height="536"></a>
+                <a href = ""><h4>T-Shirt</h4></a>
+                <h6>Rs.1200.00</h6>
+            </div>
+            <div class="col-3">
+                <a href = ""><img src="images/new1.jpg" width="400px" height="536"></a>
+                <a href = ""><h4>Jacket</h4></a>
+                <h6>Rs.2500.00</h6>
+            </div>
+            <div class="col-3">
+                <a href=""><img src="images/new2.jpg" width="400px" height="536"></a>
+                <a href = ""><h4>Bell Bottom Trousers</h4></a>
+                <h6>Rs.2100.00</h6>
+            </div>
+        </div>
+    </div>
+
+    <div class = "brow">
+        <div class="col-2">
+            <img src="images/row4.png" width="520px" height="810px">
+        </div>
+        <div class="col-2">
+            <h1>Discover Our<br>Latest Paragons</h1>
+            <a href="" class="btn">Discover Now &#8594;</a>
+        </div>
+        <h1 id = "trend">Ladies</h1>
+    </div>
+
+    <div class="categories">
+        <div class="brow">
+            <div class="col-3">
+                <a href=""><img src="images/row51.png" width="380px" height="536"></a>
+                <a href = ""><h4>Jumpsuit</h4></a>
+                <h6>Rs.1200.00</h6>
+            </div>
+            <div class="col-3">
+                <a href = ""><img src="images/row52.jpg" width="400px" height="536"></a>
+                <a href = ""><h4>Skirt</h4></a>
+                <h6>Rs.1700.00</h6>
+            </div>
+            <div class="col-3">
+                <a href=""><img src="images/row53.png" width="400px" height="536"></a>
+                <a href = ""><h4>Jumpsuit</h4></a>
+                <h6>Rs.1900.00</h6>
+            </div>
+        </div>
+    </div>
+    
+    <div class="brands">
+        <div class="small-container">
+            <div class="brrow">
+                <div class="col-5">
+                    <img src="images/levis.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/nike.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/puma.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/gucci.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/adidas.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+
+    <footer class= "footer">
+        <div class= "container">
+            <div class ="row">
+                <div class= "footer-col">
+                    <h4>Company</h4>
+
+                    <ul>
+                        <li><a href="aboutus.html">about us</a></li>
+                        <li><a href="#">Our services</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="checkout.php">delivery</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>get help</h4>
+
+                    <ul>
+                        <li><a href="faq.php">FAQ</a></li>
+                        <li><a href="contactus.php">Contact us</a></li>
+                        <li><a href="return.php">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="payment.html">payment options</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>online shop</h4>
+
+                    <ul>
+                        <li><a href="products.html">Women wear</a></li>
+                        <li><a href="products.html">Gents wear</a></li>
+                        <li><a href="products.html">Kids wear</a></li>
+                        <li><a href="products.html">Fabrics</a></li>
+                        <li><a href="products.html">Bags</a></li>
+                        <li><a href="newarrivals.html">New arrivals</a></li>
+                    </ul>
+                </div>
+
+                <div class= "footer-col">
+                    <img src="images/cultrate.png" width="300px" height="150px">
+
+                    <form action="">
+                        <input type="email" placeholder="Enter Email here" id="">
+                        <input type="submit" value="Subscribe Now">
+                    </form>
+
+                    <br/>
+
+                    <div class="social-links">
+                        <a href="#"><img src="images/fb.png" id = "sm" width = "50px" height="50px"></a>
+                        <a href="#"><img src="images/twit.png" id = "sm"  width = "50px" height="50px"></a>
+                        <a href="#"><img src="images/insta.png" id = "sm"  width = "50px" height="50px"></a>
+                        <a href="#"><img src="images/link.png" id = "sm"  width = "50px" height="50px"></a>
+                    </div>
+                </div>
+
+                <div class="notice">
+                    Copyright Protected &copy;
+                    <b>2021 Cultrade.lk (Pvt.).Ltd</b>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
